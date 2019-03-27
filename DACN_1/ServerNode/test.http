@@ -1,0 +1,59 @@
+# ###
+# POST http://125.212.241.31:3000/DangNhap HTTP/1.1
+# content-type: application/x-www-form-urlencoded
+
+# {
+#     "TenTaiKhoan": "lnxkhoa",
+#     "MatKhau": "xuankhoa"
+# }
+# ###
+
+# ###
+
+# POST http://localhost:3000/DangNhap HTTP/1.1
+# content-type: application/x-www-form-urlencoded
+
+# {
+#     "TenTaiKhoan": "lnxkhoa",
+#     "MatKhau": "xuankhoa"
+# }
+# ###
+
+# POST http://localhost:3000/LayQuanAnTuMa HTTP/1.1
+# content-type: application/x-www-form-urlencoded
+
+# {
+#     "MaQuanAn" : "1",
+# }
+
+
+###
+
+
+POST http://localhost:3000/TaoQuanAn HTTP/1.1
+content-type: application/x-www-form-urlencoded
+
+{
+    "TenTaiKhoan": "1",
+    "TenQuanAn":"qa1",
+    "Avatar":"hinhanh1",
+    "SoDienThoai":"0909090909",
+    "MoTa":"mo ta ngan",   
+    "GioMoCua":"1",
+    "GioDongCua":"1",
+}
+###
+
+
+POST http://localhost:3000/ThemMonAn HTTP/1.1
+content-type: application/x-www-form-urlencoded
+
+{
+      "GioiThieuMonAn" : "gt mon an",
+     "TenMonAn"  : "mon an 2",
+     "MaLoaiMonAn"  :  1,
+     "Avatar"  :"aaavaa",
+     "GiaTien"  : 1000,
+}
+
+
